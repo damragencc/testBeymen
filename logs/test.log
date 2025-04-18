@@ -1,0 +1,556 @@
+11:23:27.700 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:23:29.941 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:23:32.465 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:23:32.477 [main] INFO  com.beymen.tests.BeymenTest - Sayfa başlığı doğrulandı
+11:23:32.573 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:32:42.137 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:32:43.926 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:32:46.245 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:32:46.913 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:32:47.064 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:32:47.168 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi ve arama yapıldı: gömlek
+11:32:57.677 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:33:46.589 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:33:47.815 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:33:50.184 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:33:50.853 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:33:50.973 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:33:51.205 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi ve arama yapıldı: gömlek
+11:34:11.421 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:35:33.940 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:35:35.185 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:35:35.824 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:35:38.779 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:35:38.901 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:35:39.011 [main] INFO  com.beymen.tests.BeymenTest - Arama kutusu temizlendi
+11:35:39.076 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi ve arama yapıldı: gömlek
+11:35:59.313 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:36:41.404 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:36:42.512 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:36:44.569 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:36:45.229 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:36:45.423 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:36:45.510 [main] INFO  com.beymen.tests.BeymenTest - Arama kutusu temizlendi
+11:36:45.523 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:36:46.750 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:37:34.782 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:37:36.006 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:37:39.429 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:37:39.577 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:38:19.470 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:38:20.592 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:38:22.692 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:38:23.347 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:39:34.814 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:39:35.897 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:39:38.244 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:39:40.463 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:40:00.590 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ı görünmedi
+11:40:00.732 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:40:00.806 [main] INFO  com.beymen.tests.BeymenTest - Arama kutusu temizlendi
+11:40:00.823 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:40:03.201 [main] INFO  com.beymen.tests.BeymenTest - Arama butonu tıklandı
+11:40:23.472 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:41:32.919 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:41:34.107 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:41:36.089 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:41:36.745 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:41:57.096 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ı görünmedi
+11:41:57.270 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:41:57.456 [main] INFO  com.beymen.tests.BeymenTest - Arama kutusu temizlendi
+11:41:57.483 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:42:18.012 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:42:45.502 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:42:46.776 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:42:48.456 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:42:49.105 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:43:09.167 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ı görünmedi
+11:43:09.291 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:43:09.335 [main] INFO  com.beymen.tests.BeymenTest - Arama kutusu temizlendi
+11:43:09.353 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:43:29.736 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:47:47.690 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:47:49.420 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:47:51.122 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:47:51.789 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:47:52.212 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+11:47:52.411 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:47:52.521 [main] INFO  com.beymen.tests.BeymenTest - Arama kutusu temizlendi
+11:47:52.538 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:47:52.549 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+11:48:12.937 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:48:54.888 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:48:56.088 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:48:58.066 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:48:58.710 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:48:59.141 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+11:48:59.263 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:48:59.328 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:48:59.344 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+11:49:19.717 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+11:52:18.179 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+11:52:20.586 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+11:52:22.540 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+11:52:23.197 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+11:52:23.689 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+11:52:23.993 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+11:52:24.073 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+11:52:24.091 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+11:52:44.517 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:03:16.107 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:03:18.029 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:03:19.891 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:03:20.548 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:03:20.948 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:03:21.129 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:03:22.381 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:05:24.107 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:05:25.398 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:05:27.045 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:05:27.699 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:05:28.084 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:05:28.229 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:05:29.458 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:06:27.236 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:06:28.380 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:06:30.050 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:06:30.693 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:06:31.117 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:06:31.237 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:06:31.269 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:06:31.289 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:06:51.732 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:15:13.454 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:15:15.006 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:15:16.657 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:15:17.312 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:15:17.733 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:15:17.867 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:16:54.474 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:16:56.649 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:16:58.463 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:16:59.127 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:16:59.564 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:16:59.838 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:18:05.727 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:18:07.422 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:18:09.561 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:18:10.230 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:18:10.665 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:18:10.852 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:21:27.877 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:21:29.578 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:21:31.533 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:21:32.215 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:21:33.860 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:21:34.122 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: short
+12:21:34.716 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:21:34.731 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:21:55.194 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:24:24.756 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:24:26.865 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:24:28.864 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:24:29.519 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:24:30.114 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:24:30.312 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:24:30.353 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:24:50.794 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:28:05.998 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:28:08.231 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:28:10.470 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:28:11.156 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:28:11.568 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:28:11.806 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:28:11.898 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:28:32.416 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:29:31.125 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:29:32.867 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:29:34.925 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:29:35.613 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:29:36.051 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:29:36.389 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:29:36.515 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:29:48.307 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+12:29:49.365 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+12:29:49.604 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:30:38.555 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:30:40.275 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:30:42.290 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:30:42.962 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:30:43.382 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:30:43.541 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:30:43.639 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:31:14.311 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:39:27.406 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:39:29.235 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:39:31.719 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:39:32.390 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:39:32.802 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:39:33.025 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:39:33.093 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:40:20.543 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:40:56.246 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:40:58.302 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:40:59.898 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:41:00.576 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:41:00.974 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:41:01.282 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:41:01.321 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:41:03.337 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+12:41:03.408 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+12:41:03.534 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:42:23.977 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:42:25.980 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:42:28.562 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:42:29.293 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:42:29.708 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:42:29.923 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:42:29.991 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:42:32.016 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+12:42:32.197 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:43:36.842 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:43:38.530 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:43:40.402 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:43:41.047 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:45:21.997 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:45:23.425 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:45:25.245 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:45:25.900 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:46:11.336 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ı görünmedi
+12:46:11.493 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:46:11.528 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:46:13.560 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+12:46:14.797 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:46:53.334 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:46:55.005 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:46:58.284 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:46:59.184 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:47:01.272 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:47:01.426 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:47:01.478 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:47:03.513 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+12:47:03.575 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+12:47:49.003 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+12:48:16.530 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+12:48:18.807 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+12:48:20.819 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+12:48:21.472 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+12:48:23.574 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+12:48:23.823 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+12:48:23.857 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+12:48:25.900 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+12:48:25.940 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+12:49:14.415 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+13:00:09.240 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:00:11.443 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:00:14.148 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:00:14.949 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:00:17.041 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:00:17.317 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:00:17.366 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+13:00:19.411 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+13:00:19.458 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:01:10.131 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+13:02:05.004 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:02:07.877 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:02:09.962 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:02:10.642 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:02:12.728 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:02:12.880 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:02:12.969 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+13:02:15.019 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçları görüntülendi
+13:02:15.061 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:10:13.665 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:10:15.324 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:10:17.253 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:10:17.918 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:10:19.975 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:10:20.123 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:10:20.184 [main] INFO  com.beymen.tests.BeymenTest - ENTER tuşu ile arama yapıldı
+13:11:41.635 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:11:43.179 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:11:44.810 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:11:45.472 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:11:47.543 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:11:47.736 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:12:47.432 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:12:49.989 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:12:51.811 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:12:52.497 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:12:54.553 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:12:54.688 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:17:45.746 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:17:48.425 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:17:50.273 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:17:50.935 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:17:53.023 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:17:53.241 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:20:54.646 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:20:56.640 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:21:00.101 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:21:00.752 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:21:02.829 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:21:03.021 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:26:47.771 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:26:51.165 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:26:52.995 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:26:53.654 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:26:55.758 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:26:55.927 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:27:04.391 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:28:09.460 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:28:12.417 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:28:14.133 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:28:14.816 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:28:16.900 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:28:17.123 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:28:25.287 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:29:14.700 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+13:32:52.323 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:32:54.720 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:32:55.487 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:32:57.228 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:32:59.292 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:32:59.446 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:33:07.999 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:33:12.263 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+13:37:54.973 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:37:58.734 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:38:00.867 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:38:01.568 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:38:03.664 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:38:03.837 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:38:12.181 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:38:16.501 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+13:41:25.597 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:41:27.960 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:41:28.868 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:41:30.569 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:41:32.669 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:41:32.815 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:41:41.198 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:41:45.546 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+13:42:38.839 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+13:42:40.768 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+13:42:44.478 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+13:42:45.274 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+13:42:47.410 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+13:42:47.595 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+13:42:56.181 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+13:43:00.491 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:05:59.770 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:06:02.646 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:06:04.365 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:06:05.064 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:06:07.134 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:06:07.282 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:06:15.489 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:06:19.705 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:07:35.976 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:07:38.360 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:07:40.221 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:07:40.887 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:07:42.968 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:07:43.112 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:07:51.475 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:07:55.751 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:08:40.786 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:08:42.378 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:08:44.189 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:08:44.847 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:08:46.930 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:08:47.115 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:08:55.308 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:08:59.571 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:09:40.573 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:09:42.113 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:09:43.936 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:09:44.591 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:09:46.670 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:09:46.835 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:09:55.287 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:10:44.741 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:11:21.628 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:11:24.160 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:11:25.908 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:11:26.567 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:11:28.630 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:11:28.785 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:11:37.317 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:11:41.563 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:17:17.923 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:17:20.252 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:17:26.245 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:17:26.426 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:17:28.484 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:17:28.693 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:17:45.036 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:17:49.499 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:27:03.891 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:27:05.668 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:27:07.513 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:27:08.177 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:27:10.260 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:27:10.390 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:27:18.651 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:28:11.008 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:28:48.300 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:28:49.717 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:28:51.548 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:28:52.210 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:28:54.267 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:28:54.424 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:29:02.820 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:29:57.243 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:40:48.533 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:40:50.772 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:40:51.607 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:41:36.687 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası popup'ı görünmedi
+14:42:24.051 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ı görünmedi
+14:42:24.241 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:42:32.049 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:42:37.338 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:45:13.484 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:45:14.796 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:45:16.735 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:45:17.389 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:45:19.470 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:45:19.613 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:45:27.673 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:45:38.885 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:47:15.098 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:47:16.580 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:47:18.408 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:47:19.077 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:47:21.162 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:47:21.297 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:47:29.429 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:47:42.751 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:48:46.703 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:48:48.133 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:48:49.986 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:48:50.649 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:48:52.734 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:48:52.875 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:49:01.611 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:49:17.473 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:49:55.494 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:49:56.978 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:49:58.771 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:49:59.430 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:50:01.511 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:50:01.671 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:50:10.162 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:50:25.968 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:51:47.163 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:51:48.467 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:51:50.545 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:51:51.256 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:51:53.338 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:51:53.528 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:52:02.061 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:53:04.816 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:54:01.992 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:54:03.658 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:54:05.658 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:54:06.321 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:54:08.399 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:54:08.537 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:54:16.842 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:54:36.389 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+14:55:49.826 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+14:55:51.317 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+14:55:53.284 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+14:55:53.953 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+14:55:56.035 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+14:55:56.282 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+14:56:04.534 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+14:56:23.969 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:04:23.526 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:04:25.748 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:04:27.588 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:04:28.243 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:04:30.345 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:04:30.494 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:04:38.748 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:04:46.256 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:05:17.148 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:05:18.201 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:05:19.013 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:05:20.747 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:05:22.844 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:05:23.004 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:05:31.645 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:05:39.166 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:06:38.622 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:06:40.353 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:06:42.450 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:06:43.114 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:06:45.196 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:06:45.368 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:06:53.973 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:07:13.614 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:08:21.079 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:08:22.538 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:08:24.300 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:08:24.949 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:08:27.041 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:08:27.230 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:08:35.220 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:08:42.684 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:10:58.329 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:11:00.416 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:11:02.809 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:11:03.479 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:11:05.537 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:11:05.680 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:11:13.807 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:11:33.401 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:12:15.366 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:12:16.941 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:12:17.642 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:12:19.469 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:12:21.572 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:12:21.724 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:12:29.810 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:12:40.364 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:13:29.934 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:13:31.647 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:13:32.286 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:13:34.032 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:13:36.125 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:13:36.270 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:13:44.607 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:13:55.166 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:14:53.456 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:14:55.185 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:14:56.802 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:14:57.461 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:14:59.559 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:14:59.700 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:15:08.000 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:15:23.659 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:16:59.779 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:17:01.914 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:17:03.957 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:17:04.616 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:17:06.694 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:17:06.832 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:17:15.263 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:17:30.895 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:18:54.612 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:18:56.006 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:18:56.594 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:18:58.293 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:19:00.388 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:19:00.538 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:19:09.031 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:19:24.570 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:21:02.840 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:21:04.688 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:21:06.322 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:21:06.988 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:21:09.085 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:21:09.233 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:21:17.601 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:21:41.121 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
