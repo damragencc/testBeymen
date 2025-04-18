@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.Select;
+
+import javax.print.DocFlavor;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileWriter;
@@ -32,6 +34,7 @@ public class BeymenTest {
     public void setupTest() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
+        options.addArguments("--disable-notifications");
         driver = new ChromeDriver(options);
         logger.info("Chrome tarayıcı başlatıldı");
     }
@@ -43,7 +46,7 @@ public class BeymenTest {
         Sheet sheet = workbook.getSheetAt(0);
 
         searchTerms[0] = sheet.getRow(0).getCell(0).getStringCellValue(); // short
-        searchTerms[1] = sheet.getRow(1).getCell(0).getStringCellValue(); // gömlek
+        searchTerms[1] = sheet.getRow(0).getCell(1).getStringCellValue(); // gömlek
 
         workbook.close();
         file.close();
@@ -55,11 +58,12 @@ public class BeymenTest {
         String[] searchTerms = readDataFromExcel();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(45));
 
+
         // Ana sayfayı aç
         driver.get("https://www.beymen.com");
         logger.info("Beymen ana sayfası açıldı");
 
-        // Çerez popup'ını kabul et (varsa)
+        // Çerez popup'ını kabul et
         try {
             WebElement acceptCookies = wait.until(ExpectedConditions.elementToBeClickable(
                     By.id("onetrust-accept-btn-handler")));
@@ -69,7 +73,7 @@ public class BeymenTest {
             logger.info("Çerez politikası popup'ı görünmedi");
         }
 
-        // Cinsiyet seçim popup'ında erkek seçeneğini seç (varsa)
+        // Cinsiyet seçim popup'ında erkek seçeneğini seç
         Thread.sleep(2000); // Popup'ın yüklenmesi için bekle
         try {
             WebElement maleButton = wait.until(ExpectedConditions.elementToBeClickable(
@@ -80,14 +84,25 @@ public class BeymenTest {
             logger.info("Cinsiyet seçim popup'ı görünmedi");
         }
 
-
-        // İlk arama terimi (short)
+        WebElement search = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='o-header__search--input']")));
+        search.click();
         WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//input[@placeholder='Ürün, Marka Arayın']")));
+                By.xpath("//*[@id='o-searchSuggestion__input']")));
+        Thread.sleep(2000);
+        searchBox.sendKeys(searchTerms[0]);
+        logger.info("Short girildi." + searchTerms[0]);
+
+        WebElement delete = driver.findElement(By.xpath("//*[@class='o-header__search--close -hasButton']"));
+        delete.click();
+        Thread.sleep(2000);
+
+        
 
 
 
-        // İkinci arama terimi (gömlek)
+        // İkinci arama terimi (gomlek)
+        
+
         searchBox.sendKeys(searchTerms[1]);
         logger.info("İkinci arama terimi girildi: " + searchTerms[1]);
 
