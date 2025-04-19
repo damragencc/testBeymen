@@ -554,3 +554,108 @@
 15:21:09.233 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
 15:21:17.601 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
 15:21:41.121 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:46:24.978 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:46:27.195 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı
+15:46:29.151 [main] INFO  com.beymen.tests.BeymenTest - Beymen ana sayfası açıldı
+15:46:29.801 [main] INFO  com.beymen.tests.BeymenTest - Çerez politikası kabul edildi
+15:46:31.876 [main] INFO  com.beymen.tests.BeymenTest - Cinsiyet seçim popup'ında erkek seçeneği seçildi
+15:46:34.415 [main] INFO  com.beymen.tests.BeymenTest - Short girildi.şort
+15:46:36.519 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:46:44.745 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+15:47:08.581 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:54:39.406 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:54:41.762 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+15:54:42.320 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+15:54:49.077 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+15:54:52.405 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:55:27.125 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:55:28.552 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+15:55:28.805 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+15:55:35.656 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+15:55:39.053 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:56:39.068 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:56:40.678 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+15:56:41.025 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+15:56:47.751 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:56:57.729 [main] INFO  com.beymen.tests.BeymenTest - Ürün bilgileri kaydedildi
+15:57:46.294 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+15:57:58.784 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+15:58:00.438 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+15:58:00.702 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+15:58:07.550 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+15:58:20.051 [main] INFO  com.beymen.tests.BeymenTest - Ürün bilgileri kaydedildi
+15:59:11.862 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:01:28.798 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:01:30.925 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:01:31.186 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:01:37.912 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+16:01:48.557 [main] INFO  com.beymen.tests.BeymenTest - Ürün bilgileri kaydedildi
+16:08:08.984 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:08:10.859 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:08:11.097 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:08:17.869 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+16:08:23.535 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+16:08:27.611 [main] INFO  com.beymen.tests.BeymenTest - Ürün bilgileri kaydedildi
+16:08:34.694 [main] INFO  com.beymen.tests.BeymenTest - Ürün sepete eklendi ve sepete gidildi
+16:08:37.758 [main] WARN  com.beymen.tests.BeymenTest - UYARI: Fiyatlar farklı! Ürün: 7.295 TL, Sepet: 3.285,00 TL
+16:08:42.009 [main] INFO  com.beymen.tests.BeymenTest - Ürün adedi başarıyla 2 olarak güncellendi
+16:08:46.161 [main] INFO  com.beymen.tests.BeymenTest - Sepet başarıyla boşaltıldı
+16:08:46.345 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:12:59.848 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:13:01.392 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:13:01.620 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:13:08.194 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:13:11.503 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:30:51.233 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:30:52.736 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:30:52.991 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:30:59.626 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:31:00.904 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:32:30.147 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:32:31.764 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:32:32.032 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:33:01.078 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:33:02.424 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:33:02.662 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:33:09.528 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:33:44.514 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:33:45.929 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:33:46.189 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:33:52.858 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:33:54.135 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:37:29.319 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:37:30.879 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:37:31.177 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:37:37.880 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:37:39.155 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:38:31.997 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:38:33.485 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:38:33.746 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:38:40.481 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:38:41.800 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:40:52.715 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:40:54.374 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:40:54.647 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:41:01.398 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:41:02.674 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:41:28.310 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:41:29.594 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:41:29.842 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:41:36.614 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:41:37.892 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:42:16.283 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:42:18.143 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:42:18.560 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:42:25.182 [main] INFO  com.beymen.tests.BeymenTest - İlk arama terimi girildi: şort
+16:42:26.406 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı
+16:42:52.423 [main] INFO  com.beymen.tests.BeymenTest - WebDriver kurulumu tamamlandı
+16:42:53.685 [main] INFO  com.beymen.tests.BeymenTest - Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu
+16:42:53.930 [main] INFO  com.beymen.tests.BeymenTest - Excel'den arama terimleri okundu
+16:43:00.711 [main] INFO  com.beymen.tests.BeymenTest - İkinci arama terimi girildi: gömlek
+16:43:05.770 [main] INFO  com.beymen.tests.BeymenTest - Arama sonuçlarından ilk ürün seçildi
+16:43:09.831 [main] INFO  com.beymen.tests.BeymenTest - Ürün bilgileri kaydedildi
+16:43:16.720 [main] INFO  com.beymen.tests.BeymenTest - Ürün sepete eklendi ve sepete gidildi
+16:43:19.775 [main] WARN  com.beymen.tests.BeymenTest - UYARI: Fiyatlar farklı! Ürün: 7.295 TL, Sepet: 3.285,00 TL
+16:43:23.981 [main] INFO  com.beymen.tests.BeymenTest - Ürün adedi başarıyla 2 olarak güncellendi
+16:43:28.113 [main] INFO  com.beymen.tests.BeymenTest - Sepet başarıyla boşaltıldı
+16:43:28.362 [main] INFO  com.beymen.tests.BeymenTest - Tarayıcı kapatıldı

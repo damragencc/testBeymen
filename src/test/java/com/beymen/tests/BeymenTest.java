@@ -1,5 +1,8 @@
 package com.beymen.tests;
 
+import com.beymen.pages.BasketPage;
+import com.beymen.pages.HomePage;
+import com.beymen.pages.ProductPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,23 +12,19 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.Select;
-
-import javax.print.DocFlavor;
-import java.io.BufferedWriter;
 import java.io.FileInputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.time.Duration;
 
 public class BeymenTest {
     private static final Logger logger = LogManager.getLogger(BeymenTest.class);
     private WebDriver driver;
+    private HomePage homePage;
+    private ProductPage productPage;
+    private BasketPage basketPage;
 
     @BeforeAll
     public static void setupClass() {
+        final Logger logger = LogManager.getLogger(BeymenTest.class);
         WebDriverManager.chromedriver().setup();
         logger.info("WebDriver kurulumu tamamlandı");
     }
@@ -36,7 +35,13 @@ public class BeymenTest {
         options.addArguments("--start-maximized");
         options.addArguments("--disable-notifications");
         driver = new ChromeDriver(options);
-        logger.info("Chrome tarayıcı başlatıldı");
+        
+        // Page Objects'leri initialize et
+        homePage = new HomePage(driver);
+        productPage = new ProductPage(driver);
+        basketPage = new BasketPage(driver);
+        
+        logger.info("Chrome tarayıcı başlatıldı ve Page Objects oluşturuldu");
     }
 
     private String[] readDataFromExcel() throws IOException {
@@ -56,181 +61,72 @@ public class BeymenTest {
     @Test
     public void beymenTest() throws IOException, InterruptedException {
         String[] searchTerms = readDataFromExcel();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(45));
+        logger.info("Excel'den arama terimleri okundu");
 
+        // Ana sayfaya git ve başlangıç işlemlerini yap
+        homePage.navigateToHomePage();
+        homePage.acceptCookiesIfPresent();
+        homePage.selectMaleGender();
 
-        // Ana sayfayı aç
-        driver.get("https://www.beymen.com");
-        logger.info("Beymen ana sayfası açıldı");
+        /*
 
-        // Çerez popup'ını kabul et
-        try {
-            WebElement acceptCookies = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.id("onetrust-accept-btn-handler")));
-            acceptCookies.click();
-            logger.info("Çerez politikası kabul edildi");
-        } catch (TimeoutException e) {
-            logger.info("Çerez politikası popup'ı görünmedi");
-        }
-
-        // Cinsiyet seçim popup'ında erkek seçeneğini seç
-        Thread.sleep(2000); // Popup'ın yüklenmesi için bekle
-        try {
-            WebElement maleButton = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.id("genderManButton")));
-            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", maleButton);
-            logger.info("Cinsiyet seçim popup'ında erkek seçeneği seçildi");
-        } catch (TimeoutException e) {
-            logger.info("Cinsiyet seçim popup'ı görünmedi");
-        }
-
-        WebElement search = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='o-header__search--input']")));
-        search.click();
-        WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[@id='o-searchSuggestion__input']")));
-        Thread.sleep(2000);
-        searchBox.sendKeys(searchTerms[0]);
-        logger.info("Short girildi." + searchTerms[0]);
-
-        WebElement delete = driver.findElement(By.xpath("//*[@class='o-header__search--close -hasButton']"));
-        delete.click();
-        Thread.sleep(2000);
-
+        // İlk arama terimini ara ve temizle
+        homePage.performSearch(searchTerms[0]);
+        logger.info("İlk arama terimi girildi: " + searchTerms[0]);
         
-
-
-
-        // İkinci arama terimi (gomlek)
-        
-
-        searchBox.sendKeys(searchTerms[1]);
+*/
+        // İkinci arama terimini ara
+        homePage.performSearch(searchTerms[1]);
         logger.info("İkinci arama terimi girildi: " + searchTerms[1]);
+        
+        // Enter tuşuna bas
+        homePage.pressEnterKey();
+        Thread.sleep(2000);
 
-        // ENTER tuşu ile arama yap
-        WebElement araButton = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[@class='o-header__search--btn']")));
+        // ilk ürün seç
+        homePage.ilkUrun();
 
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", araButton);
+        
+        // Ürün bilgilerini kaydet
+        String productPrice = productPage.getProductPrice();
+        productPage.saveProductInfo("Gömlek", productPrice);
+        logger.info("Ürün bilgileri kaydedildi");
 
-        // Sayfa yüklenme kontrolü
-        Thread.sleep(5000); // Sayfanın yüklenmesi için kısa bir bekleme
+        // Ürünü sepete ekle
+        productPage.selectSmallSize();
+        productPage.addToBasket();
+        productPage.goToBasket();
+        logger.info("Ürün sepete eklendi ve sepete gidildi");
 
-
-        // İlk ürünü seç
-        // Ürünü seç
-        WebElement ilkUrun = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//*[@class='m-productCard__desc'][1]")));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", ilkUrun);
-        logger.info("Arama sonuçlarından ilk ürün seçildi");
-
-        // Ürün detay sayfasının yüklenmesi için bekle
-        Thread.sleep(4000);
-
-
-        // Ürün adı
-
-        WebElement urunAdiElement = driver.findElement(By.xpath("//*[contains(text(),'Kapüşonlu Yün Kaşe')]"));
-        String urunAdi = urunAdiElement.getText();
-
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("urun_bilgisi.txt"));
-            writer.write("Ürün Adı: " + urunAdi);
-            writer.close();
-            System.out.println("Ürün adı dosyaya yazıldı.");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        WebElement urunFiyatiElement = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//ins[@class='m-price__new'] | //span[@class='m-price__new'] | //span[contains(@class,'m-price__new')] | //span[@data-price] | //div[contains(@class,'m-price')]//span[contains(@class,'new')]")));
-        String urunFiyati = urunFiyatiElement.getText();
-
-        try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("urun_bilgisi.txt", true));
-            writer.newLine();
-            writer.write("Ürün Fiyatı: " + urunFiyati);
-            writer.close();
-            System.out.println("Ürün fiyatı dosyaya yazıldı.");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        Thread.sleep(3000);
-
-        // Small beden seç
-        WebElement smallBeden = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//span[@class='m-variation__item' and contains(text(),'S') or contains(text(),'Small')]")));
-        smallBeden.click();
-
-        Thread.sleep(3000);
-
-        // Sepete ekle butonuna tıkla
-        WebElement sepeteEkleBtn = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//button[@id='addBasket']")));
-        sepeteEkleBtn.click();
-
-
-
-        // Sepete git
-        // Sepete ekleme işleminin tamamlanmasını bekle
-        WebElement sepetButton = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//a[@title='Sepetim' or @class='o-header__userInfo--bag']")));
-        sepetButton.click();
-
-        // Sepetteki fiyatı al
-        Thread.sleep(3000); // Sepet sayfasının yüklenmesi için bekle
-        WebElement sepetFiyatElement = wait.until(ExpectedConditions.presenceOfElementLocated(
-                By.xpath("//li[@class='m-orderSummary__item -grandTotal']//span[@class='m-orderSummary__value']")));
-        String sepetFiyati = sepetFiyatElement.getText();
-        Thread.sleep(1000); // Fiyatın görüntülenmesi için kısa bir bekleme
-
-        // Fiyatları karşılaştır
-        System.out.println("Ürün Sayfasındaki Fiyat: " + urunFiyati);
-        System.out.println("Sepetteki Fiyat: " + sepetFiyati);
-
-        if(urunFiyati.equals(sepetFiyati)) {
-            System.out.println("Fiyatlar eşleşiyor!");
+        // Sepet işlemleri
+        String basketPrice = basketPage.getTotalPrice();
+        
+        // Fiyat karşılaştırması
+        if(productPrice.equals(basketPrice)) {
+            logger.info("Fiyatlar eşleşiyor!");
         } else {
-            System.out.println("UYARI: Fiyatlar farklı!");
+            logger.warn("UYARI: Fiyatlar farklı! Ürün: " + productPrice + ", Sepet: " + basketPrice);
         }
 
-        // Ürün adedini 2'ye çıkar
-        Thread.sleep(2000); // Sayfanın yüklenmesi için bekle
-        WebElement quantitySelect = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//select[contains(@class, 'a-selectControl')]")));
-        Select select = new Select(quantitySelect);
-        select.selectByValue("2");
-        Thread.sleep(2000); // Değişikliğin uygulanması için bekle
-
-        // Adet sayısını doğrula
-        WebElement updatedQuantitySelect = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//select[contains(@class, 'a-selectControl')]")));
-        Select updatedSelect = new Select(updatedQuantitySelect);
-        String selectedValue = updatedSelect.getFirstSelectedOption().getText();
-        if(selectedValue.equals("2 adet")) {
-            System.out.println("Ürün adedi başarıyla 2 olarak güncellendi");
+        // Ürün adedini güncelle
+        basketPage.updateQuantity("2");
+        String selectedQuantity = basketPage.getSelectedQuantity();
+        
+        if(selectedQuantity.equals("2 adet")) {
+            logger.info("Ürün adedi başarıyla 2 olarak güncellendi");
         } else {
-            System.out.println("UYARI: Ürün adedi güncellenemedi! Mevcut değer: " + selectedValue);
+            logger.warn("UYARI: Ürün adedi güncellenemedi! Mevcut değer: " + selectedQuantity);
         }
 
         // Ürünü sepetten sil
-        WebElement removeButton = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//button[contains(@class, 'removeItem')] | //button[contains(@class, 'delete')] | //button[contains(@class, 'basket__remove')]")));
-        removeButton.click();
-        Thread.sleep(2000); // Silme işleminin tamamlanması için bekle
-
-        // Boş sepet kontrolü
-        Thread.sleep(2000); // Sayfanın güncellenmesi için bekle
-        try {
-            WebElement emptyBasketMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                    By.xpath("//div[contains(@class, 'empty')]//p | //div[contains(@class, 'empty')]//strong")));
-            if(emptyBasketMessage.isDisplayed()) {
-                System.out.println("Sepet başarıyla boşaltıldı");
-            }
-        } catch (Exception e) {
-            System.out.println("UYARI: Sepet boşaltılamadı!");
+        basketPage.removeProduct();
+        
+        // Sepetin boş olduğunu kontrol et
+        if(basketPage.isBasketEmpty()) {
+            logger.info("Sepet başarıyla boşaltıldı");
+        } else {
+            logger.warn("UYARI: Sepet boşaltılamadı!");
         }
-
     }
 
     @AfterEach
@@ -239,7 +135,5 @@ public class BeymenTest {
             driver.quit();
             logger.info("Tarayıcı kapatıldı");
         }
-
-
     }
 }
