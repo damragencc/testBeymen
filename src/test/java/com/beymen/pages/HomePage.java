@@ -20,6 +20,7 @@ public class HomePage extends BasePage {
     private final By searchCloseButton = By.xpath("//*[@class='o-header__search--close -hasButton']");
     private final By searchButton = By.xpath("//*[@class='o-header__search--btn']");
     private final By productCards = By.xpath("//*[@class='m-productCard__desc']");
+    private final By inputId= By.id("//*[@id='o-searchSuggestion__input']");
 
 
     public HomePage(WebDriver driver) {
@@ -51,7 +52,6 @@ public class HomePage extends BasePage {
     }
 
     public void performSearch(String searchTerm) throws InterruptedException {
-        clickElement(searchInput);
         WebElement searchBoxElement = waitForElementClickable(searchBox);
         Thread.sleep(2000);
         searchBoxElement.sendKeys(searchTerm);
@@ -80,6 +80,14 @@ public class HomePage extends BasePage {
         // Ürün detay sayfasının yüklenmesi için bekle
         Thread.sleep(4000);
     }
+
+   public void searchBoxx() throws InterruptedException {
+
+       
+       WebElement delete = driver.findElement(By.xpath("//*[@class='o-header__search--close -hasButton']"));
+       delete.click();
+       Thread.sleep(2000);
+   }
 
 
 }

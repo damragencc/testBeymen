@@ -12,6 +12,10 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+
+
 import java.io.FileInputStream;
 import java.io.IOException;
 
@@ -68,20 +72,24 @@ public class BeymenTest {
         homePage.acceptCookiesIfPresent();
         homePage.selectMaleGender();
 
-        /*
 
         // İlk arama terimini ara ve temizle
+        WebElement element1 = driver.findElement(By.xpath("//*[@class='o-header__search--input']"));
+        element1.click();
         homePage.performSearch(searchTerms[0]);
         logger.info("İlk arama terimi girildi: " + searchTerms[0]);
-        
-*/
+        homePage.clearSearch();
+
         // İkinci arama terimini ara
+        Thread.sleep(2000);
         homePage.performSearch(searchTerms[1]);
         logger.info("İkinci arama terimi girildi: " + searchTerms[1]);
-        
+
         // Enter tuşuna bas
         homePage.pressEnterKey();
         Thread.sleep(2000);
+
+        
 
         // ilk ürün seç
         homePage.ilkUrun();
